@@ -27,9 +27,11 @@ The main function takes an image and shows results.
 The result from this code is the raw data which will not let you reproduce exactly the paper results. For this purpose you still need to low-pass filter the results and, for natural images datasets (such as MIT1003 ...), add also a centred Gaussian.  
 
 Figure 1: Input image
+
 ![Input image](images/1.jpg) 
 
 Figure 2: Saliency map
+
 ![Saliency map](images/1_saliency.jpg)
 
 ### Requirements
