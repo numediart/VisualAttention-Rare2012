@@ -2,19 +2,17 @@
 % code written in 2012 by Nicolas Riche during his PhD Thesis under the   %
 % supervision of Dr. Matei Mancas                                         % 
 %                                                                         %
-% RARE2012 is currently under review. It is an improvement of the one     %
-% described in the following ICIP 2012 paper. For the moment, if you use  %
-% this code please cite this paper :                                      %
+% If you use this code please cite this paper :                           %
 % ---------------------------------------------                           %
-% N. RICHE, M. MANCAS, B. GOSSELIN, T. DUTOIT, 2012,                      %
-% "RARE: a New Bottom-Up Saliency Model",                                 %
-% Proceedings of the IEEE International Conference on Image Processing    %
-% Orlando, USA, September 30 - October 3, 2012.                           %
+% Riche, N., Mancas, M., Duvinage, M., Mibulumukini, M., Gosselin, B.,    %
+% Dutoit, T. (2013). Rare2012: A multi-scale rarity-based saliency        %
+% detection with its comparative statistical analysis. Signal Processing: %
+% Image Communication, 28(6), 642-658.                                    %
 % ------------------------------------------------------------------------%
 clc; close all; clear all;
 
 % I = im2double(rgb2gray(imread('1.jpg')));
-I = im2double(imread('1.jpg'));
+I = im2double(imread('images/1.jpg'));
 
 tic
 R = rare2012(I);
